@@ -3,11 +3,12 @@ import styles from './app.module.css';
 
 import NxWelcome from './nx-welcome';
 
+import { ThemesPiano } from '@tailwind-theme/piano';
+
 export function App() {
   return (
     <>
-      <NxWelcome title="pancake" />
-
+      <ThemesPiano />
       <div />
     </>
   );
