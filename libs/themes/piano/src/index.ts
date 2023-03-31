@@ -1,1 +1,1 @@
-export * from './lib/themes-piano';
+export { default as PianoLayout } from './PianoLayout';
